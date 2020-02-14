@@ -203,7 +203,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5557, 0, -0.567323 )
 [node name="Kolunetass" type="Position3D" parent="." index="16"]
 
 [node name="Kolunet" parent="Kolunetass" index="0" instance=ExtResource( 5 )]
-transform = Transform( 1.0121, 0.000683648, -0.00121651, -0.000683634, 1.0121, 1.15481e-05, 0.00121652, -1.07237e-05, 1.0121, -12.4547, 0.442091, 6.93941 )
+transform = Transform( 1.0121, 0.000683648, -0.00121651, -0.000683634, 1.0121, 1.15481e-05, 0.00121652, -1.07237e-05, 1.0121, -12.4547, -0.551525, 6.93941 )
 
 [node name="Kolunet7" parent="Kolunetass" index="1" instance=ExtResource( 5 )]
 transform = Transform( 1.0121, 0.000683648, -0.00121651, -0.000683634, 1.0121, 1.15481e-05, 0.00121652, -1.07237e-05, 1.0121, -9.22408, -3.18653, 6.93941 )
@@ -235,57 +235,60 @@ transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 3.84983, 
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 1.20959, 1.87009, 6.43564 )
 
 [node name="coletavel10" parent="Coletaveiss" index="3" instance=ExtResource( 13 )]
-transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -9.08039, 4.36426, 6.91409 )
+transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -9.13805, 4.36426, 6.91409 )
 
-[node name="coletavel4" parent="Coletaveiss" index="4" instance=ExtResource( 13 )]
+[node name="coletavel22" parent="Coletaveiss" index="4" instance=ExtResource( 13 )]
+transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -12.2393, 7.07805, 6.91409 )
+
+[node name="coletavel4" parent="Coletaveiss" index="5" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 7.66987, 1.87009, 5.64098 )
 
-[node name="coletavel11" parent="Coletaveiss" index="5" instance=ExtResource( 13 )]
+[node name="coletavel11" parent="Coletaveiss" index="6" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 7.66987, 1.87009, 22.2131 )
 
-[node name="coletavel17" parent="Coletaveiss" index="6" instance=ExtResource( 13 )]
+[node name="coletavel17" parent="Coletaveiss" index="7" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 4.75037, 1.87009, 27.8172 )
 
-[node name="coletavel20" parent="Coletaveiss" index="7" instance=ExtResource( 13 )]
+[node name="coletavel20" parent="Coletaveiss" index="8" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 0.693512, 5.88361, 33.1212 )
 
-[node name="coletavel21" parent="Coletaveiss" index="8" instance=ExtResource( 13 )]
+[node name="coletavel21" parent="Coletaveiss" index="9" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -1.30045, 5.74976, 41.595 )
 
-[node name="coletavel18" parent="Coletaveiss" index="9" instance=ExtResource( 13 )]
+[node name="coletavel18" parent="Coletaveiss" index="10" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 4.75037, 1.87009, 38.3526 )
 
-[node name="coletavel19" parent="Coletaveiss" index="10" instance=ExtResource( 13 )]
+[node name="coletavel19" parent="Coletaveiss" index="11" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 12.5993, 1.87009, 38.3526 )
 
-[node name="coletavel13" parent="Coletaveiss" index="11" instance=ExtResource( 13 )]
+[node name="coletavel13" parent="Coletaveiss" index="12" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 5.81934, 0.42008, 14.6679 )
 
-[node name="coletavel14" parent="Coletaveiss" index="12" instance=ExtResource( 13 )]
+[node name="coletavel14" parent="Coletaveiss" index="13" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 5.81934, 0.42008, 12.6279 )
 
-[node name="coletavel15" parent="Coletaveiss" index="13" instance=ExtResource( 13 )]
+[node name="coletavel15" parent="Coletaveiss" index="14" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 3.77723, 0.42008, 12.6279 )
 
-[node name="coletavel16" parent="Coletaveiss" index="14" instance=ExtResource( 13 )]
+[node name="coletavel16" parent="Coletaveiss" index="15" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 3.77723, 0.42008, 14.4963 )
 
-[node name="coletavel12" parent="Coletaveiss" index="15" instance=ExtResource( 13 )]
+[node name="coletavel12" parent="Coletaveiss" index="16" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 14.487, 1.87009, 22.2131 )
 
-[node name="coletavel5" parent="Coletaveiss" index="16" instance=ExtResource( 13 )]
+[node name="coletavel5" parent="Coletaveiss" index="17" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 14.5245, 1.40297, 5.64098 )
 
-[node name="coletavel6" parent="Coletaveiss" index="17" instance=ExtResource( 13 )]
+[node name="coletavel6" parent="Coletaveiss" index="18" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 5.67154, 2.50477, -2.13513 )
 
-[node name="coletavel7" parent="Coletaveiss" index="18" instance=ExtResource( 13 )]
+[node name="coletavel7" parent="Coletaveiss" index="19" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 8.46229, 4.74407, -6.46534 )
 
-[node name="coletavel8" parent="Coletaveiss" index="19" instance=ExtResource( 13 )]
+[node name="coletavel8" parent="Coletaveiss" index="20" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 9.96277, 6.58769, -10.032 )
 
-[node name="coletavel9" parent="Coletaveiss" index="20" instance=ExtResource( 13 )]
+[node name="coletavel9" parent="Coletaveiss" index="21" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 6.69252, 9.41196, -12.3364 )
 
 [node name="MeaHud" parent="." index="18" instance=ExtResource( 15 )]
@@ -305,6 +308,7 @@ stream = ExtResource( 19 )
 [connection signal="body_entered" from="Coletaveiss/coletavel2" to="." method="_on_coletavel_body_entered"]
 [connection signal="body_entered" from="Coletaveiss/coletavel3" to="." method="_on_coletavel_body_entered"]
 [connection signal="body_entered" from="Coletaveiss/coletavel10" to="." method="_on_coletavel_body_entered"]
+[connection signal="body_entered" from="Coletaveiss/coletavel22" to="." method="_on_coletavel_body_entered"]
 [connection signal="body_entered" from="Coletaveiss/coletavel4" to="." method="_on_coletavel_body_entered"]
 [connection signal="body_entered" from="Coletaveiss/coletavel11" to="." method="_on_coletavel_body_entered"]
 [connection signal="body_entered" from="Coletaveiss/coletavel17" to="." method="_on_coletavel_body_entered"]

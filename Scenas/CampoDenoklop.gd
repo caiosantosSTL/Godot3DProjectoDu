@@ -14,7 +14,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if (pontus >= 21): #21
+	if (pontus >= 22): #22
 		get_node("Venkis/Segurador").visible = true
 		get_node("AudioVenkis").play()	
 		#get_node("Pause").get_tree().paused = true
