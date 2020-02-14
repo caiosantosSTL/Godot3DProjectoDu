@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://LabelReloj.gd" type="Script" id=1]
+[ext_resource path="res://Fontes/impact.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://KanvasGUI/Kanva2.png" type="Texture" id=3]
+[ext_resource path="res://Scenas/FinLudox.tscn" type="PackedScene" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[node name="MeaHudReloj" type="CanvasLayer"]
+
+[node name="Segurador" type="Position2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="Segurador"]
+position = Vector2( 514.971, 32.7974 )
+scale = Vector2( 0.336309, 0.293724 )
+texture = ExtResource( 3 )
+
+[node name="LabelReloj" type="Label" parent="Segurador"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = 417.5
+margin_right = 606.5
+margin_bottom = 66.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.890196, 0.184314, 0.184314, 1 )
+text = "dfsdfsd"
+align = 1
+valign = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TimerT1" type="Timer" parent="Segurador/LabelReloj"]
+
+[node name="SeguradorFinLud" parent="Segurador/LabelReloj" instance=ExtResource( 4 )]
+[connection signal="timeout" from="Segurador/LabelReloj/TimerT1" to="Segurador/LabelReloj" method="_on_TimerT1_timeout"]

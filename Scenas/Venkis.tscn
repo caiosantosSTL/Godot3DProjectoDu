@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Fontes/impact.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://KanvasGUI/RectangMenor.png" type="Texture" id=2]
+[ext_resource path="res://KanvasGUI/RectangGrand.png" type="Texture" id=3]
+[ext_resource path="res://Scenas/Segurador.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 140
+font_data = ExtResource( 1 )
+
+[node name="Venkis" type="CanvasLayer"]
+
+[node name="Segurador" type="Position2D" parent="."]
+visible = false
+script = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="Segurador"]
+position = Vector2( 495.45, 311.549 )
+scale = Vector2( 0.520747, 0.520747 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite2" type="Sprite" parent="Segurador"]
+position = Vector2( 512.039, 309.571 )
+scale = Vector2( 0.346719, 0.346719 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="Segurador/Sprite2"]
+margin_left = -380.805
+margin_top = -129.56
+margin_right = 399.195
+margin_bottom = 143.44
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.976471, 0.737255, 0.101961, 1 )
+text = "Venkis"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Segurador"]
+pause_mode = 2
+margin_left = 442.0
+margin_top = 385.527
+margin_right = 582.0
+margin_bottom = 431.527
+text = "Reg"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Segurador/Button" to="Segurador" method="_on_Button_pressed"]

@@ -1,0 +1,79 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://KanvasGUI/RectangGrand.png" type="Texture" id=1]
+[ext_resource path="res://KanvasGUI/RectangMenor.png" type="Texture" id=2]
+[ext_resource path="res://Fontes/impact.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Scenas/Segurador_inicial.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 90
+font_data = ExtResource( 3 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "TematAnim"
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Temat:custom_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 0.0156863, 0.0156863, 1 ), Color( 1, 0.247059, 0.0156863, 1 ), Color( 1, 0.729412, 0.0156863, 1 ) ]
+}
+
+[node name="Tela_inicial" type="CanvasLayer"]
+pause_mode = 2
+
+[node name="Segurador_inicial" type="Position2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="Fund" type="Sprite" parent="Segurador_inicial"]
+position = Vector2( 508.822, 317.89 )
+scale = Vector2( 0.336966, 0.336966 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Segurador_inicial"]
+visible = false
+position = Vector2( 515.346, 416.704 )
+scale = Vector2( 0.535109, 0.332325 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Temat" type="Label" parent="Segurador_inicial"]
+margin_left = 294.907
+margin_top = 49.8471
+margin_right = 753.907
+margin_bottom = 159.847
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.0156863, 0.0156863, 1 )
+text = "DNKP Ludo"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimaTemat" type="AnimationPlayer" parent="Segurador_inicial"]
+pause_mode = 2
+anims/TematAnim = SubResource( 2 )
+
+[node name="Buton_gogame" type="Button" parent="Segurador_inicial"]
+margin_left = 447.155
+margin_top = 454.909
+margin_right = 601.155
+margin_bottom = 510.909
+text = "Irez"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Segurador_inicial/Buton_gogame" to="Segurador_inicial" method="_on_Buton_gogame_pressed"]

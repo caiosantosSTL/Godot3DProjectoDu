@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "AnimCilind"
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.7, 1, 1.4, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 31.493, 0, 0 ), Vector3( 23.7018, -21.3686, -44.2263 ), Vector3( -24.5845, -21.524, -25.9699 ), Vector3( 11.2894, -30.3873, 39.0208 ), Vector3( 48.5453, -48.5295, 5.2711 ) ]
+}
+
+[node name="AnimColet" type="AnimationPlayer"]
+anims/AnimCilind = SubResource( 1 )

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/venkis_sonido.wav-8c11ed8e65b7c5deb1fdb36923728199.sample"
+
+[deps]
+
+source_file="res://Sonidox/venkis_sonido.wav"
+dest_files=[ "res://.import/venkis_sonido.wav-8c11ed8e65b7c5deb1fdb36923728199.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
