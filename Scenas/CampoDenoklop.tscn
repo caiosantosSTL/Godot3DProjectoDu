@@ -235,7 +235,7 @@ transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 3.84983, 
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, 1.20959, 1.87009, 6.43564 )
 
 [node name="coletavel10" parent="Coletaveiss" index="3" instance=ExtResource( 13 )]
-transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -9.13805, 4.36426, 6.91409 )
+transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -9.13805, 4.36426, 6.44601 )
 
 [node name="coletavel22" parent="Coletaveiss" index="4" instance=ExtResource( 13 )]
 transform = Transform( 0.499891, 0, 0, 0, 0.566356, 0, 0, 0, 0.468291, -12.2393, 7.07805, 6.91409 )
